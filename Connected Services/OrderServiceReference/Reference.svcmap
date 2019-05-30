@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f9d944f1-b7e5-4806-a385-09c59ac48be7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:58123/OrdersManagement.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="OrdersManagement2.xsd" MetadataType="Schema" ID="374851f7-05d1-44fc-8501-e92655652397" SourceId="1" SourceUrl="http://localhost:58123/OrdersManagement.svc?xsd=xsd2" />
+    <MetadataFile FileName="OrdersManagement.wsdl" MetadataType="Wsdl" ID="906b61b2-e0ac-4461-a08b-486745bfec48" SourceId="1" SourceUrl="http://localhost:58123/OrdersManagement.svc?wsdl" />
+    <MetadataFile FileName="OrdersManagement.disco" MetadataType="Disco" ID="ceea7631-1cfc-4a13-afb0-9bcffc63e1e0" SourceId="1" SourceUrl="http://localhost:58123/OrdersManagement.svc?disco" />
+    <MetadataFile FileName="OrdersManagement.xsd" MetadataType="Schema" ID="41523ad9-f725-4e72-aff5-2bcd1be4371e" SourceId="1" SourceUrl="http://localhost:58123/OrdersManagement.svc?xsd=xsd1" />
+    <MetadataFile FileName="OrdersManagement1.xsd" MetadataType="Schema" ID="e63785f5-bd05-47ab-abb5-91b0634185bc" SourceId="1" SourceUrl="http://localhost:58123/OrdersManagement.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

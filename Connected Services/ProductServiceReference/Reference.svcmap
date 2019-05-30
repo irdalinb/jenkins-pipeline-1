@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f49f4201-006a-43bb-8030-d9aa24eb1bde" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:58432/ProductManagement.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ProductManagement.wsdl" MetadataType="Wsdl" ID="6d58fef7-f18b-47e8-baf2-2285b9dbb50c" SourceId="1" SourceUrl="http://localhost:58432/ProductManagement.svc?wsdl" />
+    <MetadataFile FileName="ProductManagement.xsd" MetadataType="Schema" ID="0069fc9c-4cf6-445e-86f6-29c40d4a2a07" SourceId="1" SourceUrl="http://localhost:58432/ProductManagement.svc?xsd=xsd2" />
+    <MetadataFile FileName="ProductManagement1.xsd" MetadataType="Schema" ID="e7802d28-8f9b-47d4-8ca6-687cc552e93a" SourceId="1" SourceUrl="http://localhost:58432/ProductManagement.svc?xsd=xsd0" />
+    <MetadataFile FileName="ProductManagement.disco" MetadataType="Disco" ID="e99eaabe-f7b4-4c4f-9db0-ee4569a24e3a" SourceId="1" SourceUrl="http://localhost:58432/ProductManagement.svc?disco" />
+    <MetadataFile FileName="ProductManagement2.xsd" MetadataType="Schema" ID="39fbfc01-a179-4b9e-8d7a-1933d9d21b2f" SourceId="1" SourceUrl="http://localhost:58432/ProductManagement.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
