@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiftAndShiftWcfApp", "LiftAndShiftWcfApp\LiftAndShiftWcfApp.csproj", "{2255039B-3515-4ECF-BAC1-D68465270A0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiftAndShiftMvcApp.Web", "LiftAndShiftMvcApp.Web\LiftAndShiftMvcApp.Web.csproj", "{2CB42F63-CE23-4FA4-AB46-58A9B523EC45}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0FA9D863-CC0B-47F1-805A-15B26046ABA2} = {0FA9D863-CC0B-47F1-805A-15B26046ABA2}
+		{2255039B-3515-4ECF-BAC1-D68465270A0D} = {2255039B-3515-4ECF-BAC1-D68465270A0D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiftAndShiftMvcApp.Web.Tests", "LiftAndShiftMvcApp.Web.Tests\LiftAndShiftMvcApp.Web.Tests.csproj", "{A142CDCC-A963-443C-978F-6E2DBE9E1867}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiftAndShiftApp.Models", "LiftAndShiftApp.Models\LiftAndShiftApp.Models.csproj", "{C374DEBD-8342-40B1-BBEE-97DAD100D132}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LeftAndShiftWcf.IIS", "LeftAndShiftWcf.IIS\", "{5B19F8DE-3F8A-47C5-B7D5-6BD669C2DDC8}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{2255039b-3515-4ecf-bac1-d68465270a0d}|LiftAndShiftWcfApp.dll;{9C49C942-9EB0-404D-B35B-F7AF2A97285B}|LiftAndShift.BAL.dll;{EA672383-9060-49C3-A32E-8274120C8457}|LiftAndShift.DAL.dll;{C374DEBD-8342-40B1-BBEE-97DAD100D132}|LiftAndShiftApp.Models.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53507"
+		Debug.AspNetCompiler.PhysicalPath = "LeftAndShiftWcf.IIS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53507\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53507"
+		Release.AspNetCompiler.PhysicalPath = "LeftAndShiftWcf.IIS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53507\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53507"
+		SlnRelativePath = "LeftAndShiftWcf.IIS\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiftAndShift.BAL", "LiftAndShift.BAL\LiftAndShift.BAL.csproj", "{9C49C942-9EB0-404D-B35B-F7AF2A97285B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiftAndShift.DAL", "LiftAndShift.DAL\LiftAndShift.DAL.csproj", "{EA672383-9060-49C3-A32E-8274120C8457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiftAndShift.ProductService", "LiftAndShift.ProductService\LiftAndShift.ProductService.csproj", "{0FA9D863-CC0B-47F1-805A-15B26046ABA2}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A44596DF-033A-4FAE-9CA2-F6C06F353647}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2255039B-3515-4ECF-BAC1-D68465270A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2255039B-3515-4ECF-BAC1-D68465270A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2255039B-3515-4ECF-BAC1-D68465270A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2255039B-3515-4ECF-BAC1-D68465270A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CB42F63-CE23-4FA4-AB46-58A9B523EC45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CB42F63-CE23-4FA4-AB46-58A9B523EC45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CB42F63-CE23-4FA4-AB46-58A9B523EC45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CB42F63-CE23-4FA4-AB46-58A9B523EC45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A142CDCC-A963-443C-978F-6E2DBE9E1867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A142CDCC-A963-443C-978F-6E2DBE9E1867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A142CDCC-A963-443C-978F-6E2DBE9E1867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A142CDCC-A963-443C-978F-6E2DBE9E1867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C374DEBD-8342-40B1-BBEE-97DAD100D132}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C374DEBD-8342-40B1-BBEE-97DAD100D132}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C374DEBD-8342-40B1-BBEE-97DAD100D132}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C374DEBD-8342-40B1-BBEE-97DAD100D132}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B19F8DE-3F8A-47C5-B7D5-6BD669C2DDC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B19F8DE-3F8A-47C5-B7D5-6BD669C2DDC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B19F8DE-3F8A-47C5-B7D5-6BD669C2DDC8}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B19F8DE-3F8A-47C5-B7D5-6BD669C2DDC8}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9C49C942-9EB0-404D-B35B-F7AF2A97285B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C49C942-9EB0-404D-B35B-F7AF2A97285B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C49C942-9EB0-404D-B35B-F7AF2A97285B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C49C942-9EB0-404D-B35B-F7AF2A97285B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA672383-9060-49C3-A32E-8274120C8457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA672383-9060-49C3-A32E-8274120C8457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA672383-9060-49C3-A32E-8274120C8457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA672383-9060-49C3-A32E-8274120C8457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FA9D863-CC0B-47F1-805A-15B26046ABA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FA9D863-CC0B-47F1-805A-15B26046ABA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FA9D863-CC0B-47F1-805A-15B26046ABA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FA9D863-CC0B-47F1-805A-15B26046ABA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A44596DF-033A-4FAE-9CA2-F6C06F353647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A44596DF-033A-4FAE-9CA2-F6C06F353647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A44596DF-033A-4FAE-9CA2-F6C06F353647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A44596DF-033A-4FAE-9CA2-F6C06F353647}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9228655D-802E-44F5-82A9-FC056931D05D}
+	EndGlobalSection
+EndGlobal
